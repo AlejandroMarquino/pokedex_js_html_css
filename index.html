@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokedex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finlandica:ital@1&display=swap" rel="stylesheet">
+    <script src="index.js" type="text/javascript" defer></script>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <form action="" onsubmit="searchPokemon(event)">
+        <input type="text"  name="pokemon" autocomplete="off">
+    </form>
+    <div data-card-pokemon class="card-pokemon">
+        <div data-name-pokemon>Pokedex</div>
+        <p></p>
+        <div data-img-pokemon-container class="img-container">
+            <img data-img-pokemon class="img-pokemon" src="./profesor-pokemo.jpg"></img>
+        </div>
+        <p></p>
+        <div data-id-pokemon></div>
+        <p></p>
+        <div data-types-pokemon class="types-pokemon"></div>
+        <div data-stats-pokemon class="stats-pokemon"></div>
+    </div>
+</body>
+</html>
